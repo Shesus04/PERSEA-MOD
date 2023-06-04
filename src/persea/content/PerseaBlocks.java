@@ -193,11 +193,7 @@ public class PerseaBlocks {
                 size = 2;
                 craftTime = 80;
                 itemCapacity = 10;
-                drawer = new DrawMulti(
-                        new DrawRegion("-bottom"),
-                        new DrawWeave(),
-                        new DrawDefault()
-                );
+                drawer = new DrawMulti(new DrawRegion("-bottom"), new DrawWeave(), new DrawDefault());
                 craftEffect = Fx.smeltsmoke;
 
                 outputItem = new ItemStack(PerseaItems.fiberglass, 2);
